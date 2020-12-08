@@ -14,7 +14,8 @@
 
 
 Hadoop Command to execute:
-  hadoop fs -put movies.csv
+
+        hadoop fs -put movies.csv
 	hadoop jar /mnt/home/edureka_1270998/jars/edurekaProjects.jar com.edureka.project.movie.MovieCount movies.csv movies_1950_1960_out A
 	hadoop jar /mnt/home/edureka_1270998/jars/edurekaProjects.jar com.edureka.project.movie.MovieCount movies.csv movies_high_rating_out B
 	hadoop jar /mnt/home/edureka_1270998/jars/edurekaProjects.jar com.edureka.project.movie.MovieCount movies.csv movies_count_bigger_out C
