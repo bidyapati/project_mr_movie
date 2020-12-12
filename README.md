@@ -1,10 +1,15 @@
 # A small project on movie dataset
 
 1. Find the number of movies released between 1950 and 1960.
+
     1950-1960,414
+    
 2. Find the number of movies having rating more than 4.
+
     rating>4,897
+    
 3. Find the movies whose rating are between 3 and 4.
+
     'Til Death,1
     'Til Death: Season 1,1
     'Til Death: Season 2,1
@@ -31,8 +36,11 @@
      ...
 
 4. Find the number of movies with duration more than 2 hours (7200 second).
+
     duration>7200,641
+    
 5. Find the list of years and number of movies released each year.
+
     1913,3
     1914,20
     1915,1
@@ -49,7 +57,9 @@
     ...
     ...
     ...
+    
 6. Find the total number of movies in the dataset.
+
     total,49590
 
 Hadoop Command to execute:
